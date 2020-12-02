@@ -1,0 +1,1113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+    background-color:  #000000 !important;
+    width: 100%;
+ }
+
+
+
+/* blog page */
+.blog {
+    color: #000000;
+    font-family: SansSerif;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 74px;
+  }
+  .india {
+    color: #FFD616;;
+    font-family: SansSerif;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 74px;
+  }
+  #title{
+     padding-left: 3rem;
+     padding-top: 1rem;
+  }
+
+
+
+  /* social links */
+  #links {
+    padding-right: 1rem;
+    color: black;
+    font-size: 22px;
+  }
+  #socials{
+      padding-left: 6rem;
+      padding-top: 1rem;
+  }
+
+
+
+ /* subscribe button */
+ #sub-btn{
+     padding-right: 4rem;
+ }
+.subscribe-button{
+   color: #000000 !important;
+   border: 2px solid #FFD616;
+box-sizing: border-box;
+font-size: 15px;
+}
+
+
+
+/* ul */
+ul{
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+
+
+/* edd img  */
+.egg-img{
+    position: relative;
+    width: 971px;
+    height: 772px;
+    z-index: -1;
+   margin-top: 2rem;
+   margin-left: 2.5rem;
+}
+/* egg-blog */
+.egg-blog{
+    position: absolute;
+    top: 35vmin;
+    left: 53rem;
+    width: 586px;
+height: 730px;
+background: #FFD616;
+
+border-radius: 1rem;
+box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
+z-index:1;
+
+}
+.featured{
+    margin-top: 40px;
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #000000;
+
+}
+.egg-heading{
+    width: 324px;
+height: 296px;
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 74px;
+color: #000000;
+margin-left: 50px;
+}
+.egg-margin{
+    width: 90%;
+height: 0;
+border: 2px solid #000000;
+
+}
+.egg-body{
+    width: 352px;
+height: 202px;
+font-family: Yu Gothic;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+color: #000000;
+margin-left: 55px;
+
+}
+.egg-read{
+    margin-left: 375px;
+    margin-top: 1rem;
+}
+
+/* daily post  */
+.daily-box{
+    width: 412px;
+    height: 62px;
+    background: #FFD616;
+    
+    margin-top: 2rem;;
+}
+.daily-heading{
+    font-family: Yu Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 48px;
+/* identical to box height */
+padding-left: 8rem;
+padding-top: 0.5rem;
+
+color: #000000;
+
+}
+.yellowborder{
+    width: 100%;
+    border: 2px solid #FFD616;
+    margin-top: 0px;
+}
+
+/* daily post  */
+.card{
+    border: none;
+    margin-left: 1rem;
+}
+.daily-img-sm{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.daily-img-hsm{
+    width: 364px;
+height: 71px;
+font-family: Yu Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 40px;
+margin-top:2.1rem ;
+color: #000000;
+margin-left: 1.5rem;
+}
+.daily-img-psm{
+    width: 215px;
+height: 120px;
+font-family: Yu Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+margin-left: 1.4rem;
+margin-top: 1rem;
+color: #000000;
+
+}
+.daily-btn-sm{
+    margin-left: 1.4rem;
+}
+.daily-img-lg{
+    margin-top: 1rem;
+}
+.daily-img-hlg{
+    font-family: Yu Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 40px;
+/* identical to box height */
+width: 688px;
+height: 40px;
+color: #000000;
+
+}
+.daily-img-Plg{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+width: 710px;
+height: 100px;
+}
+.daily-lg-text{
+    margin-top:1.5rem ;
+}
+.daily-lg-btn{
+    margin-top: 4rem;
+}
+.daily-social{
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: #000000;
+}
+.daily-share{
+    color: #000000;
+}
+.daily-subscribe-btn{
+    color: #000000 !important;
+    border: 2px solid #FFD616;
+ box-sizing: border-box;
+ font-size: 15px;
+ margin-left :1rem;
+ margin-right: 2rem;
+}
+.table{
+background-color: rgba(0, 0, 0, 0.6);
+position: absolute;
+text-align: center;
+height: 193px;
+top: 25rem;
+}
+.table-dark{
+    background-color: rgba(0, 0, 0, 0.6);
+position: absolute;
+text-align: center;
+height: 193px;
+top: 25rem;
+}
+.daily-imp-text{
+    width: 415px;
+height: 81px;
+font-family: Yu Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 48px;
+color: #FFFFFF;
+margin-left: 12rem;
+padding-top: 2rem;
+
+
+}
+.t2{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    text-align: center;
+
+height: 193px;
+top: 29rem;
+}
+.daily-imp-social{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+    color: white;
+}
+.daily-imp-btn{
+   margin-left: 1.3rem;
+}
+
+/* recent storiees */
+.recent-box{
+    width: 412px;
+    height: 62px;
+    background: #FFD616;
+    
+    margin-top: 2rem;;
+}
+.recent-heading{
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    
+    color: #000000;
+}
+.recent-main{
+    padding-top: 4rem ;
+}
+.recent-img-psm{
+    width: 270px;
+height: 85px;
+font-family: SansSerif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+padding-left: 3.5rem;
+
+}
+.recent-img-h1sm{
+    font-family: Yu Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 48px;
+padding-left: 2rem;
+/* identical to box height */
+
+
+color: #000000;
+}
+.recent-img-h2sm{
+    font-family: Yu Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+padding-left: 2rem;
+}
+.recent-link{
+    padding-left: 3.5rem;
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #FFD616;
+;
+}
+/* roger  */
+.roger-box{
+    width: 475.88px;
+height: 650px;
+background: #1D1C1A;
+z-index: 1;
+position: absolute;
+}
+.roger-featured{
+    font-family: Volkhov;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+text-decoration-line: underline;
+color: #FFD616 !important;
+padding-top: 4rem;
+padding-left: 2rem;
+}
+.roger-heading{
+    width: 334.12px;
+height: 248px;
+font-family: Volkhov;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 124px;
+padding-top: 3rem;
+color: #FFFFFF;
+padding-left: 2rem;
+}
+.roger-p{
+    width: 475.88px;
+    height: 750px;;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+padding-top: 5rem;
+color: #FFFFFF;
+padding-left: 2rem;
+opacity: 0.8;
+}
+.roger-img{
+    /* margin-left: -50px; */
+    padding-top: 35px;
+    width: 100%;
+}
+.featured-heading{
+    font-family: Yu Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 48px;
+padding-top: 0.7rem;
+padding-left: 5rem;
+color: #000000;
+}
+.featured-h{
+    font-family: Yu Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 40px;
+width: 371px;
+height: 78px;
+color: #000000;
+}
+.featured-p{
+    font-family: Yu Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+width: 219px;
+height: 122px;
+color: #000000;
+
+}
+
+.cat{
+    font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 34px;
+
+color: #000000;
+
+}
+.cat-img-1{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+
+.cat-img-2{
+    padding-left: 1rem;
+   margin-top: 1rem;
+}
+.cat-img-3{
+    padding-left: 1rem;
+   margin-top: 1rem;
+}
+.cat-img-4{
+    padding-left: 1rem;
+   margin-top: 1rem;
+}
+
+.featured-img-h{
+    width: 302px;
+height: 624px;
+position: absolute ;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 69px;
+z-index: 1;
+color: #FFFFFF;
+padding-top: 2rem;
+
+}
+.featured-main-img{
+    width: 120%;
+    height: 650px;
+    margin-left:-18rem;
+    padding-top: 2rem;
+}
+/* about me  */
+.about-box{
+    width: 98px;
+height: 23px;
+background: #FFD616;
+}
+.black-box{
+    width: 524px;
+height: 948px;
+background: #000000;
+}
+.about-heading{
+    width: 74px;
+height: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.about-h{
+    padding-top: 3rem;
+font-family: SansSerif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+width: 295px;
+height: 23px;
+color: #FFFFFF;
+
+}
+.about-p{
+    width: 452px;
+height: 156px;
+font-family: SansSerif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+padding-top: 3rem;
+color: #FFFFFF;
+margin-bottom: 0;
+
+}
+
+.yellow-name{
+color: #FFD616; 
+}
+.vl{
+    
+        border-left: 5px solid #FFD616;
+        height: 100%;
+     
+}
+.sub-heading{
+    margin-top: 2.5rem;
+    padding-left: 1.7rem;
+    width: 449px;
+height: 243px;
+font-family: SansSerif;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 81px;
+
+color: #000000;
+
+
+}
+.sub-para{
+    width: 772px;
+     padding-top: 1.2rem; 
+     padding-left: 1.7rem;
+height: 80px;
+font-family: SansSerif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.news-img{
+    padding-left: 1.7rem;
+}
+.emailbox{
+   padding-top: 1rem;
+   padding-left: 1.7rem;
+    width: 772px !important;
+  height: 76px !important;
+  border-color:  #FFD616  !important;
+  
+  }
+  .emailid{
+  border: 2px solid #FFD616 !important;
+  height: 50px !important;
+  }
+  .emailbutton{
+  
+  background: #000000 !important;
+  }
+.yellow-footer{
+    background-color:  #FFD616;
+}
+.footer-h{
+    margin-top: 2rem;
+    padding-left: 2rem;
+    width: 161px;
+height: 35px;
+font-family: SansSerif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.footer-li{
+    font-family: SansSerif;
+    padding-left: 2.2rem;
+    padding-top: 0.8rem;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.footer-box2{
+    background: #000000;
+    
+}
+.footer-h2{
+    font-family: SansSerif;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 74px;
+padding-top: 2.5rem;
+color: #FFFFFF;
+
+}
+.footer-p{
+    font-family: SansSerif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 17px;
+text-align: center;
+padding-top: 2.5rem;
+color: #FFFFFF;
+
+}
+.footer-social-icon{
+    color: white;
+    font-size: 100px;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+}
+.docogen{
+    
+font-family: SansSerif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 17px;
+padding-top: 3rem;
+color: #FFFFFF;
+
+}
+
+
+
+
+
+
+/* cokntact  */
+.sub-con{
+    margin-top: 1rem;
+   margin-left: 0.6rem;
+}
+.message{
+    background-color: black;
+    margin-left: -5%;
+}
+.name{
+    margin-top: 1rem;
+}
+.message-submit{
+    text-align: center;
+    margin-left: 40%;
+}
+
+.contact-social{
+    margin-top: 2rem;
+  text-align: center;
+    font-size: 5rem;
+    padding-top: 1rem;
+    color: #FFD616;
+    background-color: black;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+}
+.contactus{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    font-family: Asar;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 175px;
+    
+    color: #FFFFFF;
+    
+
+}
+.contact-img{
+    width: 100%;
+}
+.section2{
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+
+
+
+/* about us  */
+
+.aboutimg{
+    width: 100%;
+}
+.aboutus{
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    font-family: Asar;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 175px;
+    
+    color: #FFFFFF;
+    
+}
+.about-yellow-box-1{
+    position: absolute;
+    left: 4rem;
+    top: -2.5rem;
+    width: 657px;
+height: 578px;
+border: 5px solid #FFD616;
+box-sizing: border-box;
+z-index: -1;
+}
+
+.about-black-box{
+    position: absolute;
+    left: 40rem;
+    top: 7rem;
+    width: 657px;
+height: 565px;
+border: 3px solid #000000;
+box-sizing: border-box;
+}
+.about-yellow-box-2{
+    position: absolute;
+left: 72%;
+    top: 2rem;
+    width: 500px;
+    height: 700px;
+border: 5px solid #FFD616;
+box-sizing: border-box;
+}
+.about-black-box-main{
+    width: 482px;
+height: 724px;
+background: #000000;
+margin-top: 2rem;
+margin-left: 2rem;
+}
+.about-img-main{
+ margin-top: 3.5rem;
+ padding-left: 30%;
+}
+.about-black-box-text{
+    padding-top: 3rem;
+    font-family: SansSerif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.about-yellow-box-text-1{
+    margin-top: 20rem;
+    width: 362px;
+height: 304px;
+background: #FFD616;
+}
+.yellow-box-1-text{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+
+text-align: center;
+padding-top: 5rem;
+padding-left: 1rem;
+width: 332px;
+line-height: 125%;
+color: #000000;
+
+}
+.about-yellow-box-text-2{
+    margin-top: 10rem;
+    width: 302px;
+height: 198px;
+background: #FFD616;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 125%;
+text-align: center;
+padding-top: 3rem;
+color: #000000;
+
+}
+
+.yellow-box-2-text{
+
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+}
+.our-aim-1-img{
+    margin-top: 2.5rem;
+    padding-left: 2rem;
+}
+.our-aim-h{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+margin-top: 9rem;
+color: #000000;
+
+}
+.our-aim-p{
+padding-top: 3rem;
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+;
+color: #000000;
+}
+
+.k24{
+    margin-top: 10rem;
+    font-family: SansSerif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 46px;
+display: flex;
+align-items: center;
+
+color: #FFD616;
+
+}
+.abc{
+    font-family: SansSerif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) {
+    #title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #socials{
+      text-align: right;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) {
+
+    #title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #socials{
+      text-align: right;
+      }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* // Large devices (desktops, 992px and up) */
+  @media (max-width: 992px) {
+    #title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #socials{
+       text-align: right;
+    
+      }
+      #sub-btn{
+       top: 1rem;
+          text-align: left;
+        position: absolute;
+     left: 1rem;
+        
+      }
+     .egg-blog{
+   left: 45%;
+   width:450px ;
+}
+.egg-img{
+    width: 100%;
+    margin-left: -15rem;
+    
+}
+.egg-read{
+   margin-left: 150px;
+}
+.daily-minor{
+    padding-left: 25%;
+}
+.table{
+    top: 34rem;
+}
+.recent-minor{
+    padding-left: 4rem;
+}
+
+
+/* roger  */
+.roger-box{
+    width: 30%;
+    height: 520px;
+    background: #1D1C1A;
+    z-index: 1;
+    position: absolute;
+    top: 3rem;
+
+}
+.roger-p{
+    width: 100%;
+}
+.roger-img{
+    width: 110%;
+}
+.roger-featured{
+    font-family: Volkhov;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 31px;
+text-decoration-line: underline;
+color: #FFD616 !important;
+padding-top: 4rem;
+padding-left: 2rem;
+}
+.roger-heading{
+height: auto;
+font-size: 48px;
+margin-bottom: 0;
+padding-top: 0;
+padding-left: 0;
+top: 3rem;
+}
+.roger-p{
+    width: 100%;
+    height: 826px;;
+font-family: Ubuntu;
+padding-top: 0;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 28px;
+color: #FFFFFF;
+padding-left: 1rem
+opacity : 0.8;
+}
+.featured-minor{
+    padding-left: 25%;
+}
+ .cat{
+     padding-left: 3rem;
+     font-size: 50px;
+     margin-top: 3rem;
+ }
+
+.featured-main-img{
+    width: 130%;
+    margin-left: -15rem;
+}
+.black-box{
+    margin-left: 25%;
+    margin-top: 2%;
+    height:750px ;
+}
+.about-heading{
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+.footer-h{
+    padding-left: 45%;
+}
+.footer-minor{
+    text-align: center}
+      
+} 
+  }
+  
+  }
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (max-width: 1200px) {
+    
+  }
