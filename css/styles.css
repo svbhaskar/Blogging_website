@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* navbar */
@@ -22,7 +23,7 @@ font-size: 64px;
 line-height: 74px;
   }
   .india {
-    color: #FFD616;;
+    color: #FFD616;
     font-family: SansSerif;
 font-style: normal;
 font-weight: bold;
@@ -34,7 +35,12 @@ line-height: 74px;
      padding-top: 1rem;
   }
 
-
+.feat_div{
+    position: relative;
+    /* background-color: violet; */
+    padding-top: 2em;
+    /* width: 25em; */
+}
 
   /* social links */
   #links {
@@ -82,8 +88,8 @@ ul{
 /* egg-blog */
 .egg-blog{
     position: absolute;
-    top: 35vmin;
-    left: 53rem;
+    top: 15em;
+    left: 48rem;
     width: 586px;
 height: 730px;
 background: #FFD616;
@@ -108,8 +114,8 @@ color: #000000;
 
 }
 .egg-heading{
-    width: 324px;
-height: 296px;
+    width: 332px;
+height: 300px;
 font-family: Arial;
 font-style: normal;
 font-weight: bold;
@@ -126,7 +132,7 @@ border: 2px solid #000000;
 }
 .egg-body{
     width: 352px;
-height: 202px;
+height: 260px;
 font-family: Yu Gothic;
 font-style: normal;
 font-weight: 500;
@@ -138,8 +144,9 @@ margin-left: 55px;
 }
 .egg-read{
     margin-left: 375px;
-    margin-top: 1rem;
+    margin-top: -3rem;
 }
+
 
 /* daily post  */
 .daily-box{
@@ -156,7 +163,7 @@ font-weight: bold;
 font-size: 30px;
 line-height: 48px;
 /* identical to box height */
-padding-left: 8rem;
+/* padding-left: 4rem; */
 padding-top: 0.5rem;
 
 color: #000000;
@@ -171,7 +178,12 @@ color: #000000;
 /* daily post  */
 .card{
     border: none;
-    margin-left: 1rem;
+    /* height: 100em; */
+    /* margin-left: 1rem; */
+    position: relative;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    /* top: 10px; */
 }
 .daily-img-sm{
     margin-left: 1rem;
@@ -179,13 +191,13 @@ color: #000000;
 }
 .daily-img-hsm{
     width: 364px;
-height: 71px;
+height: 80px;
 font-family: Yu Gothic;
 font-style: normal;
 font-weight: bold;
 font-size: 25px;
 line-height: 40px;
-margin-top:2.1rem ;
+/* margin-top:1.1rem ; */
 color: #000000;
 margin-left: 1.5rem;
 }
@@ -198,7 +210,7 @@ font-weight: normal;
 font-size: 15px;
 line-height: 24px;
 margin-left: 1.4rem;
-margin-top: 1rem;
+margin-top: -1rem;
 color: #000000;
 
 }
@@ -264,22 +276,22 @@ top: 25rem;
 position: absolute;
 text-align: center;
 height: 193px;
-top: 25rem;
+top: 23em;
 }
 .daily-imp-text{
     width: 415px;
-height: 81px;
+height: 130px;
 font-family: Yu Gothic;
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
 line-height: 48px;
 color: #FFFFFF;
-margin-left: 12rem;
+margin-left: 6rem;
 padding-top: 2rem;
-
-
 }
+
+
 .t2{
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
@@ -291,7 +303,7 @@ top: 29rem;
 .daily-imp-social{
     font-size: 1.2rem;
     padding-left: 2rem;
-    padding-top: 3.5rem;
+    /* padding-top: 3.5rem; */
     color: white;
 }
 .daily-imp-btn{
@@ -300,20 +312,21 @@ top: 29rem;
 
 /* recent storiees */
 .recent-box{
-    width: 412px;
+    width: 500px;
     height: 62px;
     background: #FFD616;
+    /* z-index: 1; */
     
-    margin-top: 2rem;;
+    margin-top: 5rem;;
 }
 .recent-heading{
     font-family: Yu Gothic;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 48px;
 
-    padding-left: 6rem;
+    padding-left: 1rem;
     padding-top: 0.5rem;
     
     color: #000000;
@@ -323,7 +336,7 @@ top: 29rem;
 }
 .recent-img-psm{
     width: 270px;
-height: 85px;
+height: 105px;
 font-family: SansSerif;
 font-style: normal;
 font-weight: normal;
@@ -349,16 +362,16 @@ color: #000000;
     font-family: Yu Gothic;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 17px;
 line-height: 32px;
-padding-left: 2rem;
+padding-left: 1rem;
 }
 .recent-link{
     padding-left: 3.5rem;
     font-family: Ubuntu;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 15px;
 line-height: 29px;
 /* identical to box height */
 
@@ -369,11 +382,12 @@ color: #FFD616;
 }
 /* roger  */
 .roger-box{
-    width: 475.88px;
-height: 650px;
+    width: 22em;
+height: 655px;
 background: #1D1C1A;
 z-index: 1;
 position: absolute;
+left: 2em;
 }
 .roger-featured{
     font-family: Volkhov;
@@ -383,47 +397,51 @@ font-size: 24px;
 line-height: 31px;
 text-decoration-line: underline;
 color: #FFD616 !important;
-padding-top: 4rem;
-padding-left: 2rem;
+padding-top: 1rem;
+padding-left: 1rem;
 }
 .roger-heading{
     width: 334.12px;
-height: 248px;
+/* height: 220px; */
 font-family: Volkhov;
 font-style: normal;
 font-weight: normal;
 font-size: 96px;
 line-height: 124px;
-padding-top: 3rem;
+/* padding-top: 3rem; */
 color: #FFFFFF;
-padding-left: 2rem;
+padding-left: 1rem;
 }
 .roger-p{
-    width: 475.88px;
-    height: 750px;;
+    /* width: 282px; */
+    /* height: 360px;; */
 font-family: Ubuntu;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 28px;
-padding-top: 5rem;
+position: relative;
+margin: auto;
+text-align: center;
+padding: 1em;
+/* padding-top: 5rem; */
 color: #FFFFFF;
-padding-left: 2rem;
+/* padding-left: 2rem; */
 opacity: 0.8;
 }
 .roger-img{
-    /* margin-left: -50px; */
-    padding-top: 35px;
+    margin-left: -50px;
+    padding-top: 6.4em;
     width: 100%;
 }
 .featured-heading{
     font-family: Yu Gothic;
 font-style: normal;
 font-weight: bold;
-font-size: 30px;
+font-size: 25px;
 line-height: 48px;
 padding-top: 0.7rem;
-padding-left: 5rem;
+padding-left: .5rem;
 color: #000000;
 }
 .featured-h{
@@ -433,7 +451,7 @@ font-weight: bold;
 font-size: 25px;
 line-height: 40px;
 width: 371px;
-height: 78px;
+height: 80px;
 color: #000000;
 }
 .featured-p{
@@ -454,7 +472,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 30px;
 line-height: 34px;
-
+padding-left: 4em;
 color: #000000;
 
 }
@@ -487,7 +505,7 @@ font-weight: normal;
 font-size: 60px;
 line-height: 69px;
 z-index: 1;
-color: #FFFFFF;
+color: black;
 padding-top: 2rem;
 
 }
@@ -497,6 +515,16 @@ padding-top: 2rem;
     margin-left:-18rem;
     padding-top: 2rem;
 }
+
+.floating_text{
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    width: 25em;
+    /* height: 4em; */
+    /* overflow: hidden; */
+    color: blanchedalmond;
+}
 /* about me  */
 .about-box{
     width: 98px;
@@ -505,7 +533,9 @@ background: #FFD616;
 }
 .black-box{
     width: 524px;
-height: 948px;
+height: 700px;
+position: relative;
+left: 6em;
 background: #000000;
 }
 .about-heading{
@@ -523,20 +553,22 @@ color: #000000;
 
 }
 .about-h{
-    padding-top: 3rem;
+    padding-top: 1rem;
 font-family: SansSerif;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 23px;
-text-align: center;
-width: 295px;
-height: 23px;
+/* text-align: center;*/
+margin: auto;
+align-items: center;
+width: 20em;
+height: 2em;
 color: #FFFFFF;
 
 }
 .about-p{
-    width: 452px;
+    /* width: 400px; */
 height: 156px;
 font-family: SansSerif;
 font-style: normal;
@@ -544,10 +576,10 @@ font-weight: normal;
 font-size: 20px;
 line-height: 23px;
 text-align: center;
-padding-top: 3rem;
+/* padding-top: 3rem; */
 color: #FFFFFF;
 margin-bottom: 0;
-
+padding: 1em;
 }
 
 .yellow-name{
@@ -560,9 +592,9 @@ color: #FFD616;
      
 }
 .sub-heading{
-    margin-top: 2.5rem;
-    padding-left: 1.7rem;
-    width: 449px;
+    margin-top: 1rem;
+    padding-left: 15rem;
+    width: 752px;
 height: 243px;
 font-family: SansSerif;
 font-style: normal;
@@ -577,8 +609,8 @@ color: #000000;
 .sub-para{
     width: 772px;
      padding-top: 1.2rem; 
-     padding-left: 1.7rem;
-height: 80px;
+     padding-left: 12em;
+height: 90px;
 font-family: SansSerif;
 font-style: normal;
 font-weight: normal;
@@ -589,13 +621,15 @@ color: #000000;
 
 }
 .news-img{
-    padding-left: 1.7rem;
+    padding-left: 15rem;
 }
 .emailbox{
    padding-top: 1rem;
-   padding-left: 1.7rem;
-    width: 772px !important;
-  height: 76px !important;
+   padding-left: 6rem;
+   position: absolute;
+   left: 10em;
+    width: 730px !important;
+  height: 90px !important;
   border-color:  #FFD616  !important;
   
   }
@@ -607,13 +641,16 @@ color: #000000;
   
   background: #000000 !important;
   }
+.sub_btn{
+    color: white;
+}
 .yellow-footer{
     background-color:  #FFD616;
 }
 .footer-h{
     margin-top: 2rem;
     padding-left: 2rem;
-    width: 161px;
+    width: 190px;
 height: 35px;
 font-family: SansSerif;
 font-style: normal;
@@ -623,7 +660,7 @@ line-height: 35px;
 /* identical to box height */
 
 
-color: #000000;
+color: white;
 
 }
 .footer-li{
@@ -635,11 +672,13 @@ font-weight: normal;
 font-size: 20px;
 line-height: 23px;
 
-color: #000000;
+color: white;
 
 }
 .footer-box2{
     background: #000000;
+    position: relative;
+    top: 2em;
     
 }
 .footer-h2{
@@ -665,9 +704,12 @@ color: #FFFFFF;
 }
 .footer-social-icon{
     color: white;
-    font-size: 100px;
+    font-size: 3em;
     padding-top: 2.5rem;
     padding-left: 1.5rem;
+}
+.text-center{
+    /* background-color: black; */
 }
 .docogen{
     
@@ -677,11 +719,17 @@ font-weight: bold;
 font-size: 15px;
 line-height: 17px;
 padding-top: 3rem;
-color: #FFFFFF;
+color: white;
+background-color: black;
+
 
 }
-
-
+.icons{
+    background-color: black;
+}
+.card_cnt{
+    overflow-x: hidden;
+}
 
 
 
@@ -1070,7 +1118,7 @@ font-weight: normal;
 font-size: 13px;
 line-height: 28px;
 color: #FFFFFF;
-padding-left: 1rem
+padding-left: 1rem;
 opacity : 0.8;
 }
 .featured-minor{
@@ -1111,3 +1159,19 @@ opacity : 0.8;
   @media (max-width: 1200px) {
     
   }
+
+.contact_form{
+    position: relative;
+    left: 3em;
+    background-color: #FFD616;
+    border-radius: 1em;
+    padding: 1em;
+}
+/* .maps{
+    height: 100px;
+} */
+.form_button{
+    color: green;
+    border-radius: 2em;
+    background: green;
+}
